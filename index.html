@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>🌟Quest for Competence🌟</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="homeOverlay">
+  <div class="overlayBox">
+    <h1>🌟Quest for Competence🌟 </h1>
+    <p>Press Start | Begin Your Journey To Know Me!</p>
+    <button id="startBtn">Start Game</button>
+  </div>
+</div>
+
+<div id="storyOverlay" style="display:none;">
+  <div class="overlayBox">
+    <h2 id="storyHeader">📜 Story Event</h2>
+    <p id="storyText"></p>
+    <button id="closeStory">Continue</button>
+  </div>
+</div>
+ 
+  <div id="ui">
+  <button id="restartBtn">🔁 Restart</button>
+  <a id="resumeBtn" href="RESUME .pdf" class = "btn">📄 Full Resume</a>
+</div>
+
+  <div id="game">
+    <div id="score">Distance: 0</div>
+    <div id="player"></div>
+    <div id="ground"></div>
+    <div id="messageBox"></div>
+    <div id="titleLogo">🌟Quest for Competence🌟
+  </div>
+    
+      
+  <!-- 🎵 Background Music -->
+  <audio id="bgMusic" src="music.mp3" loop></audio>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
